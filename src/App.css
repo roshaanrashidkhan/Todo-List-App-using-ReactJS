@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff8b8b;
+    border-radius: 5px;
+}
+
+body {
+    background-image: url('/src/assets/bg-image.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: max(100vw, 3000px); */
+    background-size: cover;
+    /* min-height: 100vh; */
+}
